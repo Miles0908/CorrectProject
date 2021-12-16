@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background: url(/images/s-1.jpg);   
+    background: url(/FinalProjectWebDesign/images/s-1.jpg);   
     background-size: cover;
     height: 800px;
     background-position: center;
@@ -40,7 +40,7 @@ article{
     background:darkorange;
     width: 700px;
     margin-left: 200px;
-    border: cadetblue;
+    border: cadetblue ;
     border-radius: 5px;
 }
 h1{
@@ -94,14 +94,14 @@ footer{
 
 }
 .socialIcono:nth-of-type(1){
-    background-image: url(/images/facebook.jpg);
+    background-image: url(/FinalProjectWebDesign//images/facebook.jpg);
 }
 
 .socialIcono:nth-of-type(2){
-    background-image: url(/images/insta.jpg);
+    background-image: url(/FinalProjectWebDesign//images/insta.jpg);
 }
 .socialIcono:nth-of-type(3){
-    background-image: url(/images/twitter.png);
+    background-image: url(/FinalProjectWebDesign//images/twitter.png);
 }
 
 

@@ -107,14 +107,14 @@ footer{
 
 }
 .socialIcono:nth-of-type(1){
-    background-image: url(/images/facebook.jpg);
+    background-image: url(/FinalProjectWebDesign//images/facebook.jpg);
 }
 
 .socialIcono:nth-of-type(2){
-    background-image: url(/images/insta.jpg);
+    background-image: url(/FinalProjectWebDesign//images/insta.jpg);
 }
 .socialIcono:nth-of-type(3){
-    background-image: url(/images/twitter.png);
+    background-image: url(/FinalProjectWebDesign//images/twitter.png);
 }
 
 
