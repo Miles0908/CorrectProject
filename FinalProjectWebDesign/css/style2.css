@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(/images/s-1.jpg);   
+    background-size: cover;
+    height: 800px;
+    background-position: center;
+    font-family: sans-serif;
+}
+.menu{
+	list-style: none;
+	padding: 0px;
+	background: #092327;
+	width: 100%;
+	margin: auto;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+
+.menu li{
+	display: inline-block;
+	text-align: center;
+    
+}
+
+.menu li a:hover{
+	background: #ef8354;
+}
+section{
+background: burlywood;
+border: crimson;
+border-radius: 5px;
+}
+article{
+    background:darkorange;
+    width: 700px;
+    margin-left: 200px;
+    border: cadetblue;
+    border-radius: 5px;
+}
+h1{
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer{
+    width: 100%;
+    position: absolute;
+    margin-top: 700px;
+    left: 0;
+    padding: 2rem 0%;
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+
+}
+
+.logo{
+    height: 40px;
+    margin-bottom: 1rem;
+
+}
+.socialMedia, .footerMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+
+}
+.socialIcono{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid green;
+    background-image: url();
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+
+.socialIcono:hover{
+    background-color: grey;
+    filter: invert(1) ;
+
+}
+.socialIcono:nth-of-type(1){
+    background-image: url(/images/facebook.jpg);
+}
+
+.socialIcono:nth-of-type(2){
+    background-image: url(/images/insta.jpg);
+}
+.socialIcono:nth-of-type(3){
+    background-image: url(/images/twitter.png);
+}
+
+
+.footerMenu{
+    list-style-type:none;
+    color: indigo;
+    font-size: 18px;
+
+}
+.menu-footer{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.menu-footer:hover{
+    opacity: 1;
+}
+.copy{
+    color: black;
+    opacity: 0.3;
+    text-align: center;
+}
+
+
